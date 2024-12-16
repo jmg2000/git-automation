@@ -1,0 +1,16 @@
+[general]
+gitlab_token="token"
+gitlab_api_url= "https://gitlab.credu.ai"
+kubernetes_namespace="master"
+max_retries=10
+wait_interval=10
+
+[audio-worker]
+gitlab_project_id=10
+repo_path="/Users/jmg2000/Projects/python/audio-worker"
+kubernetes_label_selector="app.kubernetes.io/name=audio-worker"
+
+[api]
+gitlab_project_id=7
+repo_path="/Users/jmg2000/Projects/back/theclub/api"
+kubernetes_label_selector="app.kubernetes.io/name=backend"
