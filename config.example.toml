@@ -4,6 +4,10 @@ gitlab_api_url= "https://gitlab.credu.ai"
 kubernetes_namespace="master"
 max_retries=10
 wait_interval=10
+master_branch="master"
+develop_branch="develop"
+remove_source_branch=true
+squash_commits=true
 
 [audio-worker]
 gitlab_project_id=10
